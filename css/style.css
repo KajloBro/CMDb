@@ -1,0 +1,199 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #000;
+}
+
+
+.container {
+    background-color: #bbb;
+    color: #333;
+}
+
+
+/* SPACINGS */
+
+.mg_3_top {
+    margin-top: 3px;
+}
+
+.mg_10_top {
+    margin-top: 10px;
+}
+
+.mg_30_top {
+    margin-top: 30px;
+}
+
+.mg_50_top {
+    margin-top: 50px;
+}
+
+.mg_0_bot {
+    margin-bottom: 0;
+}
+
+.mg_15_bot {
+    margin-bottom: 15px;
+}
+
+.pd_15_top_bot {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pd_15_top {
+    padding-top: 15px;
+}
+
+.pd_15_bot {
+    padding-bottom: 15px;
+}
+
+
+/* HEADER */
+
+#navbar_logo {
+    height: 50px;
+    width: 125px;
+}
+ 
+.navbar-default {
+    background-color: #888 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+    border-bottom: 3px solid #888;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+    border-bottom: 3px solid #000;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+/* FOOTER */ 
+
+footer {
+    background-color: #888;
+    color: #333;
+}
+
+/* FORMS */
+
+input[type=submit] {
+    background-color: #888;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+select {
+    border-top: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+/* ALL MOVIES/ALL STARS */
+
+.movie_list_image_size {
+    height: 50px;
+    width: 35px;
+}
+
+.table_height_align {
+    padding-top: 14px;
+}
+
+.format_anchor_txt {
+    text-decoration: none;
+    color: #333;
+}
+
+.format_anchor_txt:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.row_is_link:hover {
+    background-color: #888;
+}
+
+.director_list_image_size {
+    height: 50px;
+    width: 70px;
+}
+
+.actor_list_image_size {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* ONE MOVIE/ONE STAR */
+
+#movie_fit_image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.star_fit_image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.votes_rating_format_txt {
+    color: #222;
+    font-size: 18px;
+}
+
+#plot_format_txt {
+    color: #111;
+    font-size: 18px;
+}
+
+.custom_hr {
+    border-top: 3px dashed #333;
+    border-bottom: 3px dashed #333;
+}
+
+
+/* CMS */
+
+.dropdowns_margin {
+    margin: 10px;
+}
+
+.how_to {
+    margin: 10px;
+}
+
+.progress_line {
+    border: 3px solid #0f0;
+}
+
+.invert_progress_line {
+    border: 3px solid #ddd;
+}
+
+.step_txt {
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+textarea {
+    width: 100%;
+}
